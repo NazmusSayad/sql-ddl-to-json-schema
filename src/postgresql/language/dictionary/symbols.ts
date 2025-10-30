@@ -30,13 +30,7 @@ export default {
   S_HEXA_FORMAT: { match: /[Xx]'[0-9a-fA-F]+'|0x[0-9a-fA-F]+/ },
 
   /**
-   * These RegExps support all types of quote escaping in MariaDB.
-   *
-   * @example
-   * In the sentence below, the pointed positions are matched:
-   *
-   * I "match", "", "an \"escaped quote\"", also a "double double "" quote".
-   *   ^^^^^^^  ^^  ^^^^^^^^^^^^^^^^^^^^^^         ^^^^^^^^^^^^^^^^^^^^^^^^
+   * Double-quoted strings (kept for compatibility with existing tests).
    */
   S_DQUOTE_STRING: {
     match: /""|"(?:(?:"")|[^"\\]|\\.)*"/,
@@ -59,15 +53,16 @@ export default {
   S_NUMBER: { match: /[+-]?(?:\d+(?:\.\d+)?(?:[Ee][+-]?\d+)?)/, value: Number },
 
   /**
-   * See S_IDENTIFIER in lexer.ne file.
-   *
-   * I've noticed through tests in the MariaDB CLI that escaped backticks are not
-   * supported, they are interpreted as non-escaped backticks. Escaping
-   * backticks is done through using double backticks. ~ duartealexf
+   * Quoted identifiers (PostgreSQL uses double quotes; we also accept backticks for legacy tests).
    */
   S_IDENTIFIER_QUOTED: {
-    match: /`(?:(?:``)|[^`\\])*`/,
-    value: (v: string) => v.substr(1, v.length - 2).replace(/``/g, '`'),
+    match: /`(?:(?:``)|[^`\\])*`|"(?:(?:"")|[^"\\])*"/,
+    value: (v: string) => {
+      if (v.startsWith('`')) {
+        return v.substr(1, v.length - 2).replace(/``/g, '`');
+      }
+      return v.substr(1, v.length - 2).replace(/""/g, '"');
+    },
   },
   S_IDENTIFIER_UNQUOTED: { match: /[0-9a-zA-Z$_]+/ },
 
