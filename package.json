@@ -33,7 +33,7 @@
     "postbuild:mysql": "npm run ts-node -- tasks/mysql/postbuild.ts",
     "build:mysql": "nearleyc src/mysql/language/grammar.ne -o src/mysql/language/grammar.ts",
     "build": "npm run build:mysql && tsc",
-    "build:watch": "npm run nodemon -- -w src --exec 'npm run build'",
+    "build:watch": "npm run nodemon -- -w src --exec \"npm run build\"",
     "lint": "eslint {src,tasks,tests}/**/*.ts --fix",
     "version": "standard-version && git push --follow-tags",
     "prerelease": "npm run build",
