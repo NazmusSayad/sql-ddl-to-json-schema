@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parser: Should drop test database 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": "test",
+          "id": "P_DROP_DB",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should drop test database 2`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": "test",
+          "id": "P_DROP_DB",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should drop test database 3`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": "test",
+          "id": "P_DROP_DB",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should drop test database 4`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": "test",
+          "id": "P_DROP_DB",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;

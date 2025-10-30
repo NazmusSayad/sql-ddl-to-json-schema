@@ -5,6 +5,9 @@ import { isString } from './shared/utils';
 import { Grammar as MySQLGrammarRules } from './mysql/language';
 import { format as MySQLCompactFormatter } from './mysql/formatter/compact';
 import { format as MySQLJSONSchemaFormatter } from './mysql/formatter/json-schema';
+import { Grammar as PGGrammarRules } from './postgresql/language';
+import { format as PGCompactFormatter } from './postgresql/formatter/compact';
+import { format as PGJSONSchemaFormatter } from './postgresql/formatter/json-schema';
 
 import {
   JSONSchemaFormatOptions,
@@ -51,17 +54,21 @@ export class Parser {
    * Parser constructor.
    * Default dialect is 'mysql'.
    *
-   * @param dialect SQL dialect ('mysql' or 'mariadb' currently supported).
+   * @param dialect SQL dialect ('mysql', 'mariadb' or 'postgresql').
    */
-  constructor(dialect: 'mysql' | 'mariadb' = 'mysql') {
+  constructor(dialect: 'mysql' | 'mariadb' | 'postgresql' = 'mysql') {
     if (!dialect || dialect === 'mysql' || dialect === 'mariadb') {
       this.compiledGrammar = NearleyGrammar.fromCompiled(MySQLGrammarRules);
       this.compactFormatter = MySQLCompactFormatter;
       this.jsonSchemaFormatter = MySQLJSONSchemaFormatter;
+    } else if (dialect === 'postgresql') {
+      this.compiledGrammar = NearleyGrammar.fromCompiled(PGGrammarRules);
+      this.compactFormatter = PGCompactFormatter;
+      this.jsonSchemaFormatter = PGJSONSchemaFormatter;
     } else {
       throw new TypeError(
         `Unsupported SQL dialect given to parser: '${dialect}. ` +
-          "Please provide 'mysql', 'mariadb' or none to use default.",
+          "Please provide 'mysql', 'mariadb', 'postgresql' or none to use default.",
       );
     }
 

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should rename one table. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": [
+            {
+              "newName": "persons",
+              "table": "people",
+            },
+          ],
+          "id": "P_RENAME_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Should rename one table. 2`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": [
+            {
+              "newName": "persons",
+              "table": "people",
+            },
+          ],
+          "id": "P_RENAME_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Should rename several tables. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": [
+            {
+              "newName": "persons",
+              "table": "people",
+            },
+            {
+              "newName": "houses",
+              "table": "homes",
+            },
+            {
+              "newName": "pets",
+              "table": "cats",
+            },
+            {
+              "newName": "tests",
+              "table": "test",
+            },
+          ],
+          "id": "P_RENAME_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;

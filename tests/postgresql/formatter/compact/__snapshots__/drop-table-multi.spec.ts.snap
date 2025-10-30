@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Compact formatter: Should drop two tables. 1`] = `
+ParsedQuerySerializer {
+  "parsed": [
+    {
+      "columns": [
+        {
+          "name": "id",
+          "options": {
+            "autoincrement": true,
+            "comment": "primary key test",
+            "nullable": false,
+            "unsigned": true,
+            "zerofill": true,
+          },
+          "type": {
+            "datatype": "int",
+            "displayWidth": 10,
+          },
+        },
+        {
+          "name": "name",
+          "options": {
+            "charset": "utf8",
+            "collation": "utf8_general_ci",
+            "default": "Jane "Doe" O\`neil",
+            "nullable": false,
+          },
+          "type": {
+            "datatype": "text",
+            "length": 65535,
+          },
+        },
+        {
+          "name": "nickname",
+          "options": {
+            "default": "J",
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "varchar",
+            "length": 20,
+          },
+        },
+        {
+          "name": "binarynickname",
+          "options": {
+            "nullable": false,
+          },
+          "type": {
+            "binaryCollation": true,
+            "datatype": "varchar",
+            "length": 20,
+          },
+        },
+        {
+          "name": "ssn",
+          "options": {
+            "invisibleWithSystemVersioning": true,
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "smallint",
+          },
+        },
+        {
+          "name": "height",
+          "options": {
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "decimal",
+            "decimals": 0,
+            "digits": 10,
+          },
+        },
+        {
+          "name": "weight",
+          "options": {
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "decimal",
+            "decimals": 0,
+            "digits": 3,
+          },
+        },
+        {
+          "name": "status",
+          "options": {
+            "invisibleWithoutSystemVersioning": true,
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "bit",
+            "length": 1,
+          },
+        },
+        {
+          "name": "dob",
+          "options": {
+            "invisible": true,
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "date",
+            "fractional": 0,
+          },
+        },
+        {
+          "name": "tob",
+          "options": {
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "time",
+            "fractional": 3,
+          },
+        },
+        {
+          "name": "initials",
+          "options": {
+            "format": "fixed",
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "char",
+            "length": 3,
+          },
+        },
+        {
+          "name": "prefix",
+          "options": {
+            "format": "fixed",
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "char",
+            "length": 3,
+          },
+        },
+        {
+          "name": "suffix",
+          "options": {
+            "format": "fixed",
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "char",
+            "length": 1,
+          },
+        },
+        {
+          "name": "nsuffix",
+          "options": {
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "varchar",
+            "length": 3,
+          },
+        },
+        {
+          "name": "sequence",
+          "options": {
+            "nullable": true,
+            "storage": "disk",
+          },
+          "type": {
+            "datatype": "varbinary",
+            "length": 20,
+          },
+        },
+        {
+          "name": "avatar",
+          "options": {
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "blob",
+            "length": 65535,
+          },
+        },
+        {
+          "name": "motto",
+          "options": {
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "text",
+            "length": 50,
+          },
+        },
+        {
+          "name": "history",
+          "options": {
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "text",
+            "length": 255,
+          },
+        },
+        {
+          "name": "gender",
+          "options": {
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "enum",
+            "values": [
+              "M",
+              "F",
+            ],
+          },
+        },
+        {
+          "name": "shape",
+          "options": {
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "multipoint",
+          },
+        },
+        {
+          "name": "pattern",
+          "options": {
+            "nullable": true,
+          },
+          "type": {
+            "datatype": "multilinestring",
+          },
+        },
+      ],
+      "fulltextIndexes": [
+        {
+          "columns": [
+            {
+              "column": "initials",
+            },
+          ],
+          "name": "fi_initials",
+        },
+      ],
+      "name": "person",
+      "options": {
+        "autoincrement": 2,
+        "avgRowLength": 250,
+        "charset": "utf8",
+        "checksum": 1,
+        "collation": "utf8_general_ci",
+        "comment": "test table",
+        "compression": "zlib",
+        "engine": "XtraDB",
+        "insertMethod": "last",
+        "union": [
+          "pet",
+        ],
+      },
+      "primaryKey": {
+        "columns": [
+          {
+            "column": "id",
+          },
+        ],
+      },
+      "uniqueKeys": [
+        {
+          "columns": [
+            {
+              "column": "ssn",
+            },
+          ],
+        },
+        {
+          "columns": [
+            {
+              "column": "motto",
+              "length": 50,
+            },
+          ],
+          "indexType": "btree",
+          "name": "u_motto",
+          "options": {
+            "comment": "be original",
+          },
+        },
+      ],
+    },
+  ],
+}
+`;

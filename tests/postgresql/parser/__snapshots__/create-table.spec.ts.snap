@@ -1,0 +1,2126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parser: Should create or replace simple table. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "def": {
+              "columnsDef": {
+                "def": [
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "bool",
+                              },
+                              "id": "O_BOOLEAN_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "test",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                ],
+                "id": "P_CREATE_TABLE_CREATE_DEFINITIONS",
+              },
+              "table": "test",
+              "tableOptions": null,
+            },
+            "id": "P_CREATE_TABLE_COMMON",
+          },
+          "id": "P_CREATE_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should create or replace simple table. 2`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "def": {
+              "columnsDef": {
+                "def": [
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "bool",
+                              },
+                              "id": "O_BOOLEAN_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "test",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                ],
+                "id": "P_CREATE_TABLE_CREATE_DEFINITIONS",
+              },
+              "table": "test",
+              "tableOptions": null,
+            },
+            "id": "P_CREATE_TABLE_COMMON",
+          },
+          "id": "P_CREATE_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should create or replace simple table. 3`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "def": {
+              "columnsDef": {
+                "def": [
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "bool",
+                              },
+                              "id": "O_BOOLEAN_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "test",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                ],
+                "id": "P_CREATE_TABLE_CREATE_DEFINITIONS",
+              },
+              "table": "test",
+              "tableOptions": null,
+            },
+            "id": "P_CREATE_TABLE_COMMON",
+          },
+          "id": "P_CREATE_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should create table like another one. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "def": {
+              "like": "people",
+              "table": "person",
+            },
+            "id": "P_CREATE_TABLE_LIKE",
+          },
+          "id": "P_CREATE_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should create table like another one. 2`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "def": {
+              "like": "people",
+              "table": "person",
+            },
+            "id": "P_CREATE_TABLE_LIKE",
+          },
+          "id": "P_CREATE_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should create table like another one. 3`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "def": {
+              "like": "people",
+              "table": "person",
+            },
+            "id": "P_CREATE_TABLE_LIKE",
+          },
+          "id": "P_CREATE_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should create table like another one. 4`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "def": {
+              "like": "people",
+              "table": "person",
+            },
+            "id": "P_CREATE_TABLE_LIKE",
+          },
+          "id": "P_CREATE_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should create table like another one. 5`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "def": {
+              "like": "people",
+              "table": "person",
+            },
+            "id": "P_CREATE_TABLE_LIKE",
+          },
+          "id": "P_CREATE_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should create table like another one. 6`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "def": {
+              "like": "people",
+              "table": "person",
+            },
+            "id": "P_CREATE_TABLE_LIKE",
+          },
+          "id": "P_CREATE_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should create table like another one. 7`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "def": {
+              "like": "people",
+              "table": "person",
+            },
+            "id": "P_CREATE_TABLE_LIKE",
+          },
+          "id": "P_CREATE_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should create table with all key options. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "def": {
+              "columnsDef": {
+                "def": [
+                  {
+                    "def": {
+                      "primaryKey": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "id",
+                              "length": 2,
+                              "sort": undefined,
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                          {
+                            "def": {
+                              "column": "o_id",
+                              "length": 3,
+                              "sort": "asc",
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "index": {
+                          "def": "btree",
+                          "id": "P_INDEX_TYPE",
+                        },
+                        "name": "pk_id__o_id",
+                        "options": [
+                          {
+                            "def": {
+                              "keyBlockSize": 1024,
+                            },
+                            "id": "O_INDEX_OPTION",
+                          },
+                          {
+                            "def": {
+                              "comment": "test",
+                            },
+                            "id": "O_INDEX_OPTION",
+                          },
+                          {
+                            "def": {
+                              "indexType": {
+                                "def": "hash",
+                                "id": "P_INDEX_TYPE",
+                              },
+                            },
+                            "id": "O_INDEX_OPTION",
+                          },
+                          {
+                            "def": {
+                              "keyBlockSize": 1024,
+                            },
+                            "id": "O_INDEX_OPTION",
+                          },
+                          {
+                            "def": {
+                              "parser": "test",
+                            },
+                            "id": "O_INDEX_OPTION",
+                          },
+                        ],
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "primaryKey": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "id",
+                              "length": undefined,
+                              "sort": undefined,
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "index": null,
+                        "name": null,
+                        "options": [],
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "index": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "id",
+                              "length": 2,
+                              "sort": undefined,
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "index": {
+                          "def": "hash",
+                          "id": "P_INDEX_TYPE",
+                        },
+                        "name": "ik_id",
+                        "options": [
+                          {
+                            "def": {
+                              "comment": "test",
+                            },
+                            "id": "O_INDEX_OPTION",
+                          },
+                        ],
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "index": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "id",
+                              "length": undefined,
+                              "sort": undefined,
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "index": null,
+                        "name": "ik_id",
+                        "options": [],
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "index": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "id",
+                              "length": undefined,
+                              "sort": undefined,
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "index": null,
+                        "name": "kk_id",
+                        "options": [],
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "uniqueKey": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "id",
+                              "length": undefined,
+                              "sort": "desc",
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                          {
+                            "def": {
+                              "column": "o_id",
+                              "length": 3,
+                              "sort": "asc",
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "index": {
+                          "def": "btree",
+                          "id": "P_INDEX_TYPE",
+                        },
+                        "name": "uk_id__o_id",
+                        "options": [
+                          {
+                            "def": {
+                              "comment": "test",
+                            },
+                            "id": "O_INDEX_OPTION",
+                          },
+                        ],
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "uniqueKey": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "id",
+                              "length": undefined,
+                              "sort": undefined,
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "index": undefined,
+                        "name": undefined,
+                        "options": [],
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "uniqueKey": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "id",
+                              "length": undefined,
+                              "sort": undefined,
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "index": undefined,
+                        "name": null,
+                        "options": [],
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "fulltextIndex": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "id",
+                              "length": 2,
+                              "sort": undefined,
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                          {
+                            "def": {
+                              "column": "o_id",
+                              "length": undefined,
+                              "sort": "asc",
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "name": "pk_id__o_id",
+                        "options": [
+                          {
+                            "def": {
+                              "comment": "test",
+                            },
+                            "id": "O_INDEX_OPTION",
+                          },
+                          {
+                            "def": {
+                              "keyBlockSize": 1024,
+                            },
+                            "id": "O_INDEX_OPTION",
+                          },
+                        ],
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "fulltextIndex": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "id",
+                              "length": undefined,
+                              "sort": undefined,
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "name": null,
+                        "options": [
+                          {
+                            "def": {
+                              "keyBlockSize": 1024,
+                            },
+                            "id": "O_INDEX_OPTION",
+                          },
+                        ],
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "spatialIndex": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "id",
+                              "length": undefined,
+                              "sort": undefined,
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "name": null,
+                        "options": [],
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "fulltextIndex": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "id",
+                              "length": undefined,
+                              "sort": undefined,
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "name": null,
+                        "options": [],
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "foreignKey": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "id",
+                              "length": 2,
+                              "sort": undefined,
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                          {
+                            "def": {
+                              "column": "o_id",
+                              "length": 3,
+                              "sort": "asc",
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "name": "fk_id__o_id",
+                        "reference": {
+                          "def": {
+                            "columns": [
+                              {
+                                "def": {
+                                  "column": "id",
+                                  "length": undefined,
+                                  "sort": undefined,
+                                },
+                                "id": "P_INDEX_COLUMN",
+                              },
+                            ],
+                            "match": null,
+                            "on": [],
+                            "table": "other",
+                          },
+                          "id": "P_COLUMN_REFERENCE",
+                        },
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "foreignKey": {
+                        "columns": [
+                          {
+                            "def": {
+                              "column": "o_id",
+                              "length": undefined,
+                              "sort": undefined,
+                            },
+                            "id": "P_INDEX_COLUMN",
+                          },
+                        ],
+                        "name": null,
+                        "reference": {
+                          "def": {
+                            "columns": [
+                              {
+                                "def": {
+                                  "column": "id",
+                                  "length": undefined,
+                                  "sort": undefined,
+                                },
+                                "id": "P_INDEX_COLUMN",
+                              },
+                            ],
+                            "match": null,
+                            "on": [],
+                            "table": "other",
+                          },
+                          "id": "P_COLUMN_REFERENCE",
+                        },
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                ],
+                "id": "P_CREATE_TABLE_CREATE_DEFINITIONS",
+              },
+              "table": "person",
+              "tableOptions": null,
+            },
+            "id": "P_CREATE_TABLE_COMMON",
+          },
+          "id": "P_CREATE_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should create table with all table options. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "def": {
+              "columnsDef": {
+                "def": [
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "CHAR",
+                                "length": 1,
+                              },
+                              "id": "O_VARIABLE_STRING_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "initial",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                ],
+                "id": "P_CREATE_TABLE_CREATE_DEFINITIONS",
+              },
+              "table": "person",
+              "tableOptions": {
+                "def": [
+                  {
+                    "def": {
+                      "autoincrement": 2,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "avgRowLength": 1000,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "charset": "latin1",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "charset": "utf8",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "checksum": 0,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "checksum": 1,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "collation": "utf8_cirylic_ci",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "collation": "utf8_general_ci",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "comment": "test table",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "compression": "ZLIB",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "compression": "LZ4",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "compression": "NONE",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "connection": "mariadb://whatever",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "dataDirectory": "/var/lib/mariadb/data",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "indexDirectory": "/var/lib/mariadb/index",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "delayKeyWrite": 1,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "encryption": "Y",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "encryptionKeyId": 1,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "ietfQuotes": "YES",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "engine": "MyISAM",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "insertMethod": "LAST",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "keyBlockSize": 500,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "maxRows": 1000,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "minRows": 1,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "packKeys": 0,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "packKeys": "DEFAULT",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "password": "123456",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "pageChecksum": 0,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "rowFormat": "DEFAULT",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "rowFormat": "DYNAMIC",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "statsAutoRecalc": "DEFAULT",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "statsPersistent": 0,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "statsSamplePages": "test",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "tablespaceName": "abc",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "tablespaceName": "qwe",
+                      "tablespaceStorage": "DISK",
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "transactional": 1,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "union": [
+                        "address",
+                      ],
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "union": [
+                        "address",
+                        "phone",
+                      ],
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                  {
+                    "def": {
+                      "withSystemVersioning": true,
+                    },
+                    "id": "O_CREATE_TABLE_OPTION",
+                  },
+                ],
+                "id": "P_CREATE_TABLE_OPTIONS",
+              },
+            },
+            "id": "P_CREATE_TABLE_COMMON",
+          },
+          "id": "P_CREATE_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should create test table with all types and options of columns. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "def": {
+              "columnsDef": {
+                "def": [
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "unsigned": true,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                            {
+                              "def": {
+                                "nullable": false,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                            {
+                              "def": {
+                                "autoincrement": true,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                            {
+                              "def": {
+                                "primary": true,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "INT",
+                                "displayWidth": 10,
+                              },
+                              "id": "O_INTEGER_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "id",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "zerofill": true,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                            {
+                              "def": {
+                                "nullable": true,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "SMALLINT",
+                                "displayWidth": null,
+                              },
+                              "id": "O_INTEGER_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "age",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "unique": true,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "VARCHAR",
+                                "length": 255,
+                              },
+                              "id": "O_VARIABLE_STRING_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "ssn",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "default": "once upon a time",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "TEXT",
+                                "length": 65535,
+                              },
+                              "id": "O_FIXED_STRING_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "story",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "charset": "utf8",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                            {
+                              "def": {
+                                "collation": "utf8_general_ci",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "ENUM",
+                                "values": [
+                                  "F",
+                                  "M",
+                                  "O",
+                                ],
+                              },
+                              "id": "O_ENUM_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "gender",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "collation": "utf8_general_ci",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "SET",
+                                "values": [
+                                  "S",
+                                  "M",
+                                ],
+                              },
+                              "id": "O_SET_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "sizes",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "VARCHAR",
+                                "length": 12,
+                              },
+                              "id": "O_VARIABLE_STRING_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "name",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "default": "b'1'",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                            {
+                              "def": {
+                                "storage": "MEMORY",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "BIT",
+                                "length": 1,
+                              },
+                              "id": "O_BIT_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "status",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "default": "0b01",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "BIT",
+                                "length": 2,
+                              },
+                              "id": "O_BIT_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "twobits",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "format": "DYNAMIC",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "DECIMAL",
+                                "decimals": 2,
+                                "digits": 5,
+                              },
+                              "id": "O_FIXED_POINT_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "salary",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "format": "DYNAMIC",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "DECIMAL",
+                                "decimals": 0,
+                                "digits": 5,
+                              },
+                              "id": "O_FIXED_POINT_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "salary",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "format": "DYNAMIC",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "DECIMAL",
+                                "decimals": 0,
+                                "digits": 10,
+                              },
+                              "id": "O_FIXED_POINT_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "salary",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "comment": "account balance",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "FLOAT",
+                                "decimals": 2,
+                                "digits": 7,
+                              },
+                              "id": "O_FLOATING_POINT_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "balance",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "INTEGER",
+                                "displayWidth": null,
+                              },
+                              "id": "O_INTEGER_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                          "reference": {
+                            "def": {
+                              "columns": [
+                                {
+                                  "def": {
+                                    "column": "id",
+                                    "length": 20,
+                                    "sort": "ASC",
+                                  },
+                                  "id": "P_INDEX_COLUMN",
+                                },
+                                {
+                                  "def": {
+                                    "column": "local_id",
+                                    "length": undefined,
+                                    "sort": undefined,
+                                  },
+                                  "id": "P_INDEX_COLUMN",
+                                },
+                              ],
+                              "match": "FULL",
+                              "on": [],
+                              "table": "cities",
+                            },
+                            "id": "P_COLUMN_REFERENCE",
+                          },
+                        },
+                        "name": "city_id",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "INTEGER",
+                                "displayWidth": null,
+                              },
+                              "id": "O_INTEGER_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                          "reference": {
+                            "def": {
+                              "columns": [
+                                {
+                                  "def": {
+                                    "column": "id",
+                                    "length": undefined,
+                                    "sort": undefined,
+                                  },
+                                  "id": "P_INDEX_COLUMN",
+                                },
+                              ],
+                              "match": "SIMPLE",
+                              "on": [
+                                {
+                                  "action": "SET NULL",
+                                  "trigger": "DELETE",
+                                },
+                              ],
+                              "table": "families",
+                            },
+                            "id": "P_COLUMN_REFERENCE",
+                          },
+                        },
+                        "name": "family_id",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "INTEGER",
+                                "displayWidth": null,
+                              },
+                              "id": "O_INTEGER_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                          "reference": {
+                            "def": {
+                              "columns": [
+                                {
+                                  "def": {
+                                    "column": "id",
+                                    "length": undefined,
+                                    "sort": undefined,
+                                  },
+                                  "id": "P_INDEX_COLUMN",
+                                },
+                              ],
+                              "match": null,
+                              "on": [
+                                {
+                                  "action": "NO ACTION",
+                                  "trigger": "UPDATE",
+                                },
+                              ],
+                              "table": "dogs",
+                            },
+                            "id": "P_COLUMN_REFERENCE",
+                          },
+                        },
+                        "name": "dog_id",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "invisibleWithSystemVersioning": true,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "BOOL",
+                              },
+                              "id": "O_BOOLEAN_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "has_cat",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "invisibleWithoutSystemVersioning": true,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "BOOLEAN",
+                              },
+                              "id": "O_BOOLEAN_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "has_fish",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "invisible": true,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "INT",
+                                "displayWidth": null,
+                              },
+                              "id": "O_INTEGER_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "soul_id",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "UUID",
+                              },
+                              "id": "O_UUID_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "unique_id1",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "uniqueidentifier",
+                              },
+                              "id": "O_UUID_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "unique_id2",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "TIME",
+                                "fractional": 0,
+                              },
+                              "id": "O_DATETIME_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "birthtime",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "DATE",
+                                "fractional": 0,
+                              },
+                              "id": "O_DATETIME_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "birthdate",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "charset": "utf8",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "CHAR",
+                                "length": 5,
+                              },
+                              "id": "O_VARIABLE_STRING_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "initials",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "NATIONAL CHAR",
+                                "length": 5,
+                              },
+                              "id": "O_VARIABLE_STRING_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "initials",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "NVARCHAR",
+                                "length": 5,
+                              },
+                              "id": "O_VARIABLE_STRING_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "initials",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "NCHAR",
+                                "length": 5,
+                              },
+                              "id": "O_VARIABLE_STRING_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "initials",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "CHARACTER",
+                                "length": 5,
+                              },
+                              "id": "O_VARIABLE_STRING_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "initials",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "DATETIME",
+                                "fractional": 3,
+                              },
+                              "id": "O_DATETIME_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "created_at",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "nullable": false,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                            {
+                              "def": {
+                                "default": "CURRENT_TIMESTAMP",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "TIMESTAMP",
+                                "fractional": 0,
+                              },
+                              "id": "O_DATETIME_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "updated_at",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "nullable": false,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                            {
+                              "def": {
+                                "default": "CURRENT_TIMESTAMP(6)",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "TIMESTAMP",
+                                "fractional": 6,
+                              },
+                              "id": "O_DATETIME_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "deleted_at",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "nullable": false,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                            {
+                              "def": {
+                                "default": "CURRENT_TIMESTAMP()",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "TIMESTAMP",
+                                "fractional": 0,
+                              },
+                              "id": "O_DATETIME_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "viewed_at",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "default": "CURRENT_TIMESTAMP(6)",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                            {
+                              "def": {
+                                "onUpdate": "CURRENT_TIMESTAMP(6)",
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "TIMESTAMP",
+                                "fractional": 6,
+                              },
+                              "id": "O_DATETIME_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "trashed_at",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "TINYBLOB",
+                                "length": 255,
+                              },
+                              "id": "O_FIXED_STRING_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "avatar",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "BLOB",
+                                "length": 1024,
+                              },
+                              "id": "O_FIXED_STRING_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "image",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "JSON",
+                              },
+                              "id": "O_JSON_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "model",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                  {
+                    "def": {
+                      "column": {
+                        "def": {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "GEOMETRYCOLLECTION",
+                              },
+                              "id": "O_SPATIAL_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                        },
+                        "name": "homes",
+                      },
+                    },
+                    "id": "O_CREATE_TABLE_CREATE_DEFINITION",
+                  },
+                ],
+                "id": "P_CREATE_TABLE_CREATE_DEFINITIONS",
+              },
+              "table": "person",
+              "tableOptions": null,
+            },
+            "id": "P_CREATE_TABLE_COMMON",
+          },
+          "id": "P_CREATE_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;

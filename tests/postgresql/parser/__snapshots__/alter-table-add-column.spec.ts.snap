@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parser: Should alter table adding one column (with parenthesis as if it was more than one). 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "specs": [
+              {
+                "def": {
+                  "spec": {
+                    "def": {
+                      "action": "addColumns",
+                      "columns": [
+                        {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "boolean",
+                              },
+                              "id": "O_BOOLEAN_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                          "name": "status",
+                        },
+                      ],
+                    },
+                    "id": "O_ALTER_TABLE_SPEC",
+                  },
+                },
+                "id": "P_ALTER_TABLE_SPECS",
+              },
+            ],
+            "table": "people",
+          },
+          "id": "P_ALTER_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should alter table adding one column with one option and position. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "specs": [
+              {
+                "def": {
+                  "spec": {
+                    "def": {
+                      "action": "addColumn",
+                      "columnDefinition": [
+                        {
+                          "def": {
+                            "unsigned": true,
+                          },
+                          "id": "O_COLUMN_DEFINITION",
+                        },
+                      ],
+                      "datatype": {
+                        "def": {
+                          "def": {
+                            "datatype": "int",
+                            "displayWidth": 10,
+                          },
+                          "id": "O_INTEGER_DATATYPE",
+                        },
+                        "id": "O_DATATYPE",
+                      },
+                      "name": "uid",
+                      "position": {
+                        "after": "name",
+                      },
+                    },
+                    "id": "O_ALTER_TABLE_SPEC",
+                  },
+                },
+                "id": "P_ALTER_TABLE_SPECS",
+              },
+            ],
+            "table": "people",
+          },
+          "id": "P_ALTER_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should alter table adding one column with options and position. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "specs": [
+              {
+                "def": {
+                  "spec": {
+                    "def": {
+                      "action": "addColumn",
+                      "columnDefinition": [
+                        {
+                          "def": {
+                            "unsigned": true,
+                          },
+                          "id": "O_COLUMN_DEFINITION",
+                        },
+                        {
+                          "def": {
+                            "zerofill": true,
+                          },
+                          "id": "O_COLUMN_DEFINITION",
+                        },
+                      ],
+                      "datatype": {
+                        "def": {
+                          "def": {
+                            "datatype": "int",
+                            "displayWidth": 10,
+                          },
+                          "id": "O_INTEGER_DATATYPE",
+                        },
+                        "id": "O_DATATYPE",
+                      },
+                      "name": "uid",
+                      "position": {
+                        "after": "name",
+                      },
+                    },
+                    "id": "O_ALTER_TABLE_SPEC",
+                  },
+                },
+                "id": "P_ALTER_TABLE_SPECS",
+              },
+            ],
+            "table": "people",
+          },
+          "id": "P_ALTER_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should alter table adding one column with position. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "specs": [
+              {
+                "def": {
+                  "spec": {
+                    "def": {
+                      "action": "addColumn",
+                      "columnDefinition": [],
+                      "datatype": {
+                        "def": {
+                          "def": {
+                            "datatype": "int",
+                            "displayWidth": 10,
+                          },
+                          "id": "O_INTEGER_DATATYPE",
+                        },
+                        "id": "O_DATATYPE",
+                      },
+                      "name": "uid",
+                      "position": {
+                        "after": null,
+                      },
+                    },
+                    "id": "O_ALTER_TABLE_SPEC",
+                  },
+                },
+                "id": "P_ALTER_TABLE_SPECS",
+              },
+            ],
+            "table": "people",
+          },
+          "id": "P_ALTER_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should alter table adding one column. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "specs": [
+              {
+                "def": {
+                  "spec": {
+                    "def": {
+                      "action": "addColumn",
+                      "columnDefinition": [],
+                      "datatype": {
+                        "def": {
+                          "def": {
+                            "datatype": "int",
+                            "displayWidth": 10,
+                          },
+                          "id": "O_INTEGER_DATATYPE",
+                        },
+                        "id": "O_DATATYPE",
+                      },
+                      "name": "uid",
+                      "position": null,
+                    },
+                    "id": "O_ALTER_TABLE_SPEC",
+                  },
+                },
+                "id": "P_ALTER_TABLE_SPECS",
+              },
+            ],
+            "table": "people",
+          },
+          "id": "P_ALTER_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should alter table adding three columns. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "specs": [
+              {
+                "def": {
+                  "spec": {
+                    "def": {
+                      "action": "addColumns",
+                      "columns": [
+                        {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "unsigned": true,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                            {
+                              "def": {
+                                "nullable": false,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "int",
+                                "displayWidth": 10,
+                              },
+                              "id": "O_INTEGER_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                          "name": "uid",
+                        },
+                        {
+                          "columnDefinition": [
+                            {
+                              "def": {
+                                "unsigned": true,
+                              },
+                              "id": "O_COLUMN_DEFINITION",
+                            },
+                          ],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "int",
+                                "displayWidth": 10,
+                              },
+                              "id": "O_INTEGER_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                          "name": "sid",
+                        },
+                        {
+                          "columnDefinition": [],
+                          "datatype": {
+                            "def": {
+                              "def": {
+                                "datatype": "char",
+                                "length": 5,
+                              },
+                              "id": "O_VARIABLE_STRING_DATATYPE",
+                            },
+                            "id": "O_DATATYPE",
+                          },
+                          "name": "initials",
+                        },
+                      ],
+                    },
+                    "id": "O_ALTER_TABLE_SPEC",
+                  },
+                },
+                "id": "P_ALTER_TABLE_SPECS",
+              },
+            ],
+            "table": "people",
+          },
+          "id": "P_ALTER_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;

@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parser: Should alter table adding primary key with index options, two columns and options. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "specs": [
+              {
+                "def": {
+                  "spec": {
+                    "def": {
+                      "action": "addPrimaryKey",
+                      "columns": [
+                        {
+                          "def": {
+                            "column": "id",
+                            "length": 2,
+                            "sort": undefined,
+                          },
+                          "id": "P_INDEX_COLUMN",
+                        },
+                        {
+                          "def": {
+                            "column": "o_id",
+                            "length": 3,
+                            "sort": "asc",
+                          },
+                          "id": "P_INDEX_COLUMN",
+                        },
+                      ],
+                      "index": {
+                        "def": "btree",
+                        "id": "P_INDEX_TYPE",
+                      },
+                      "name": "pk_id__o_id",
+                      "options": [
+                        {
+                          "def": {
+                            "keyBlockSize": 1024,
+                          },
+                          "id": "O_INDEX_OPTION",
+                        },
+                        {
+                          "def": {
+                            "comment": "test",
+                          },
+                          "id": "O_INDEX_OPTION",
+                        },
+                      ],
+                    },
+                    "id": "O_ALTER_TABLE_SPEC",
+                  },
+                },
+                "id": "P_ALTER_TABLE_SPECS",
+              },
+            ],
+            "table": "people",
+          },
+          "id": "P_ALTER_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should alter table adding primary key with one column. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "specs": [
+              {
+                "def": {
+                  "spec": {
+                    "def": {
+                      "action": "addPrimaryKey",
+                      "columns": [
+                        {
+                          "def": {
+                            "column": "id",
+                            "length": undefined,
+                            "sort": undefined,
+                          },
+                          "id": "P_INDEX_COLUMN",
+                        },
+                      ],
+                      "index": null,
+                      "name": "pk_id",
+                      "options": [],
+                    },
+                    "id": "O_ALTER_TABLE_SPEC",
+                  },
+                },
+                "id": "P_ALTER_TABLE_SPECS",
+              },
+            ],
+            "table": "people",
+          },
+          "id": "P_ALTER_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should alter table adding primary key with two columns and option. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "specs": [
+              {
+                "def": {
+                  "spec": {
+                    "def": {
+                      "action": "addPrimaryKey",
+                      "columns": [
+                        {
+                          "def": {
+                            "column": "id",
+                            "length": 2,
+                            "sort": undefined,
+                          },
+                          "id": "P_INDEX_COLUMN",
+                        },
+                        {
+                          "def": {
+                            "column": "o_id",
+                            "length": 3,
+                            "sort": "asc",
+                          },
+                          "id": "P_INDEX_COLUMN",
+                        },
+                      ],
+                      "index": null,
+                      "name": "pk_id__o_id",
+                      "options": [
+                        {
+                          "def": {
+                            "keyBlockSize": 1024,
+                          },
+                          "id": "O_INDEX_OPTION",
+                        },
+                      ],
+                    },
+                    "id": "O_ALTER_TABLE_SPEC",
+                  },
+                },
+                "id": "P_ALTER_TABLE_SPECS",
+              },
+            ],
+            "table": "people",
+          },
+          "id": "P_ALTER_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should alter table adding unnamed primary key. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "specs": [
+              {
+                "def": {
+                  "spec": {
+                    "def": {
+                      "action": "addPrimaryKey",
+                      "columns": [
+                        {
+                          "def": {
+                            "column": "id",
+                            "length": undefined,
+                            "sort": undefined,
+                          },
+                          "id": "P_INDEX_COLUMN",
+                        },
+                      ],
+                      "index": null,
+                      "name": null,
+                      "options": [],
+                    },
+                    "id": "O_ALTER_TABLE_SPEC",
+                  },
+                },
+                "id": "P_ALTER_TABLE_SPECS",
+              },
+            ],
+            "table": "people",
+          },
+          "id": "P_ALTER_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
+
+exports[`Parser: Should alter table dropping primary key. 1`] = `
+ParsedQuerySerializer {
+  "parsed": {
+    "def": [
+      {
+        "def": {
+          "def": {
+            "specs": [
+              {
+                "def": {
+                  "spec": {
+                    "def": {
+                      "action": "dropPrimaryKey",
+                    },
+                    "id": "O_ALTER_TABLE_SPEC",
+                  },
+                },
+                "id": "P_ALTER_TABLE_SPECS",
+              },
+            ],
+            "table": "people",
+          },
+          "id": "P_ALTER_TABLE",
+        },
+        "id": "P_DDS",
+      },
+    ],
+    "id": "MAIN",
+  },
+}
+`;
